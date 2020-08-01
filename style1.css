@@ -27,7 +27,7 @@ body {
 
 .page-intro_container {
   position: relative;
-  height: 31.5rem;
+  height: 33.5rem;
   overflow: hidden;
 }
 .page-intro_container .page-intro_description {
@@ -47,7 +47,7 @@ body {
   border-radius: 8rem;
   background: linear-gradient(180deg, #4578FB 0%, #1656FA 100%);
   transform: rotate(-15deg);
-  top: -45rem;
+  top: -43rem;
   left: -10rem;
   z-index: 2;
 }
