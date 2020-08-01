@@ -2,12 +2,18 @@
   box-sizing: border-box;
 }
 
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   position: relative;
   padding: 0;
   margin: 0 auto;
+  width: 100%;
+  height: 100%;
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
   max-width: 1800px;
 }
 
@@ -21,7 +27,8 @@ body {
 
 .page-intro_container {
   position: relative;
-  height: 30rem;
+  height: 31.5rem;
+  overflow: hidden;
 }
 .page-intro_container .page-intro_description {
   font-family: "DM Sans", sans-serif;
@@ -78,6 +85,9 @@ body {
   margin: 0;
   padding: 0 1.7rem;
 }
+.page-intro_content h1 {
+  font-size: 2rem;
+}
 
 .download-apps {
   display: flex;
@@ -132,6 +142,10 @@ body {
   }
 }
 @media only screen and (min-width: 1200px) {
+  .page-intro_container {
+    height: 40rem;
+  }
+
   .page-intro_left-rectangle {
     top: -37rem;
     left: -7rem;
@@ -172,7 +186,7 @@ body {
   }
   .page-intro_images-frame .page-intro_image-timeline {
     bottom: -8rem;
-    right: 5rem;
+    right: 2.2rem;
     transform: rotate(-25deg);
   }
   .page-intro_images-frame .page-intro_image-budget {

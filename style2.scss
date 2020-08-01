@@ -4,6 +4,8 @@
     color: base.$blue-3;
 }
 
+.feature {}
+
 .feature-one {
     position: relative;
     display: flex;
@@ -51,6 +53,10 @@
 }
 
 @media only screen and (min-device-width: 1200px) {
+    .features-section {
+        overflow: hidden;
+    }
+
     .feature_image-pad {
         position: absolute;
         height: 20rem;
@@ -58,7 +64,6 @@
         border-radius: 4rem;
         background-color: base.$blue-3;
     }
-
 
     .feature_description {
         width: 40%;
@@ -76,7 +81,7 @@
     }
 
     .feature-one {
-        margin-top: 20rem;
+        margin-top: 15rem;
         flex-direction: row-reverse;
         justify-content: space-between;
         

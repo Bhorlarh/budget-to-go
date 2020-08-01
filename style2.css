@@ -43,6 +43,10 @@
 }
 
 @media only screen and (min-device-width: 1200px) {
+  .features-section {
+    overflow: hidden;
+  }
+
   .feature_image-pad {
     position: absolute;
     height: 20rem;
@@ -67,7 +71,7 @@
   }
 
   .feature-one {
-    margin-top: 20rem;
+    margin-top: 15rem;
     flex-direction: row-reverse;
     justify-content: space-between;
   }
