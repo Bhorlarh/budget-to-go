@@ -1,0 +1,108 @@
+.feature-title {
+  color: #1245C8;
+}
+
+.feature-one {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -4rem;
+  z-index: 2;
+}
+.feature-one .feature-one_image-container,
+.feature-one .feature-one_image-timeline-mobile {
+  position: relative;
+}
+.feature-one .feature-one_image-timeline {
+  display: none;
+}
+.feature-one .feature-one_description {
+  padding: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+.feature-two {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+}
+.feature-two .feature-two_image-container {
+  position: relative;
+}
+.feature-two .feature-two_image-statistics {
+  position: relative;
+  display: none;
+}
+.feature-two .feature-two_description {
+  padding: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+@media only screen and (min-device-width: 1200px) {
+  .feature_image-pad {
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 4rem;
+    background-color: #1245C8;
+  }
+
+  .feature_description {
+    width: 40%;
+  }
+
+  .feature_image-container {
+    width: 40%;
+  }
+
+  .feature {
+    width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    text-align: left;
+  }
+
+  .feature-one {
+    margin-top: 20rem;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .feature-one .feature-one_image-container {
+    width: 40%;
+    transform: rotate(15deg);
+  }
+  .feature-one .feature-one_image-timeline {
+    display: block;
+    margin-top: -10rem;
+    margin-left: -4.5rem;
+    transform: rotate(-15deg);
+  }
+  .feature-one .feature-one_image-timeline-mobile {
+    display: none;
+  }
+
+  .feature-two {
+    margin-top: 7rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .feature-two .feature-two_image-statistics {
+    display: block;
+    margin-top: -10rem;
+    margin-left: -4.5rem;
+    transform: rotate(15deg);
+  }
+  .feature-two .feature-two_image-container {
+    width: 40%;
+    transform: rotate(-15deg);
+  }
+  .feature-two .feature-two_image-statistics-mobile {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style2.css.map */
